@@ -41,11 +41,6 @@
 .sideMenu ul{
     list-style-type: none;
 }
-.menuBtn{
-    position: fixed;
-    top: 20px;
-    right: 10px; 
-}
 main {
     padding: 16px;
     transition: margin-left 5s;
@@ -59,8 +54,10 @@ main {
 }
 .line2{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
     gap: 10px;
+    font-size: 0.8em;
 }
 .logo-img{
     width: 30px;
