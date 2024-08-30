@@ -43,8 +43,7 @@
     list-style-type: none;
 }
 main {
-    padding: 16px;
-    transition: margin-left 5s;
+       transition: margin-left 5s;
 }
 .line1{
    
