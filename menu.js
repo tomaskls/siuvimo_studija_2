@@ -1,16 +1,19 @@
-const navBar = document.querySelector("nav");
-const meniuBtns = document.querySelectorAll(".menu-icon");
-const overLay = document.querySelectorAll(".overlay");
+const sideMenu = document.querySelector('.sideMenu');
+const menuBtn = document.querySelector('.menuBtn');
+const closeBtn = document.querySelector('.closeBtn');
+const overlay = document.querySelector('.overlay');
 
-
-
-
-document.querySelector('.menuBtn').addEventListener('click', function() {
-    document.querySelector('.sideMenu').style.left = '0';
-    document.body.style.marginLeft = "250px";
+menuBtn.addEventListener('click', function() {
+    sideMenu.classList.add('open');
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden'; // Uždraudžia slinkimą
 });
 
-document.querySelector('.closeBtn').addEventListener('click', function() {
-    document.querySelector('.sideMenu').style.left = '-250px';
-    document.body.style.marginLeft = "0";
-});
+closeBtn.addEventListener('click', closeMenu);
+overlay.addEventListener('click', closeMenu);
+
+function closeMenu() {
+    sideMenu.classList.remove('open');
+    overlay.classList.remove('active');
+    document.body.style.overflow = ''; // Grąžina slinkimą
+}

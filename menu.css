@@ -4,22 +4,24 @@
     box-sizing: border-box;
 }
 .sideMenu{
-    height: 100%;
-    width: 250px;
     position: fixed;
     top: 0;
-    left: -250px;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
-    z-index: 1; 
+    right: -250px; 
+    width: 250px;
+    height: 100vh;
+    background-color: #cd4c4c; 
+    transition: right 0.3s ease-in-out;
+    z-index: 1000; 
 }
+.sideMenu.open{
+    right: 0;
+}
+
 .sideMenu a{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s; 
 }
@@ -37,12 +39,53 @@
     color: white;
     cursor: pointer;
 }
+.sideMenu ul{
+    list-style-type: none;
+}
 .menuBtn{
     position: fixed;
-    top: 0px;
-    left: 10px; 
+    top: 20px;
+    right: 10px; 
 }
 main {
     padding: 16px;
     transition: margin-left 5s;
+}
+.line1{
+   
+    width: 100%;
+    background-color: rgb(80, 5, 5);
+    color: white;
+    text-align: center;
+}
+.line2{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.logo-img{
+    width: 30px;
+    height: 30px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menuBtn, .closeBtn {
+    cursor: pointer;
 }
