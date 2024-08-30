@@ -101,20 +101,3 @@ main {
     color: white;
    
 }
-.foto{
-    width: 100vw;
-}
-.paslaugos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-self: start;
-    gap: 5px;
-    
-    width: 100%;
-    height: 300px;
-}
-.img{
-    width: 100%;
-}
-}
