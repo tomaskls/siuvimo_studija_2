@@ -1,0 +1,19 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.imgk{
+    border: 2px solid black;
+    width: 100%;
+}
+.foto{
+    position: ;
+}
+.paslaugos{
+    margin-top: 50px;
+    position: ;
+}
