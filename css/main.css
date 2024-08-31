@@ -37,6 +37,7 @@ header{
 }
 .container p{
     margin-bottom: 20px;
+    line-height: 1.4;
 }
 .red{
     color: red;
