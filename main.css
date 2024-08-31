@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+    
 .foto{
     width: 100%;
     margin-top: 80px;
@@ -31,8 +32,11 @@ header{
     color: white;
     padding: 5px;
 }
-.container p{
+.container h2,p{
     margin-top: 10px;
+}
+.container p{
+    margin-bottom: 20px;
 }
 .red{
     color: red;
