@@ -12,7 +12,7 @@ header{
     position: fixed;
     top: 0;
 }
-.paslaugos{
+.mainContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,5 +25,17 @@ header{
 .img{
     width: 100%;
 }
-
+.container{
+    text-align: justify;
+    background-color: rgba(81, 21, 21);
+    color: white;
+    padding: 5px;
+}
+.container p{
+    margin-top: 10px;
+}
+.red{
+    color: red;
+    font-weight: 800;
+}
 }
