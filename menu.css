@@ -1,3 +1,4 @@
+
 @media (max-width:760px){
 *{
     margin: 0;
@@ -101,4 +102,10 @@ main {
     justify-content: flex-start;
     color: white;
    
+}
+}
+@media (min-width:761px){
+    .sideMenu{
+        display: none;
+    }
 }
