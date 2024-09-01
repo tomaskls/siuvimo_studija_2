@@ -54,4 +54,19 @@ header{
     width: 100%;
     padding: 5px;
 }
+.fbLink{
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: flex-end;
+}
+.fbLink img{
+width: 30px;
+height: 30px;
+margin-left: 20px;
+}
 }
