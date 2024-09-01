@@ -32,9 +32,3 @@ menuLinks.forEach(link => {
     });
 });
 
-
-// function closeMenu() {
-//     sideMenu.classList.remove('open');
-//     overlay.classList.remove('active');
-//     document.body.style.overflow = ''; // Grąžina slinkimą
-// }
