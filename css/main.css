@@ -18,14 +18,7 @@ header{
 .alink{
     scroll-margin-top: 68px;
 }
-.contacts{
-    scroll-margin-top: 90px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-    justify-content: flex-end;
-}
+
 .mainContainer{
     display: flex;
     flex-direction: column;
@@ -81,5 +74,28 @@ header{
 width: 30px;
 height: 30px;
 margin-left: 20px;
+}
+.Contacts{
+    scroll-margin-top: 90px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.contacts a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 }
