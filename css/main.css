@@ -110,6 +110,9 @@ footer{
     bottom: 0;
     background-color: aquamarine;
 }
+.pilkas{
+    width: 300px;
+}
 .repairList{
     list-style: none;
     display: flex;
@@ -205,5 +208,8 @@ footer{
     position: absolute;
     left: 0;
     top: 0;    
+}
+.pilkas{
+    width: 800px;
 }
 }
